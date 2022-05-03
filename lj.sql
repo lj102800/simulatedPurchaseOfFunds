@@ -1,4 +1,4 @@
-#ddd
+#d
 # Structure for table "jj_msck"
 #
 
