@@ -1,4 +1,4 @@
-Application/Runtime/
+Application/Runtime/*
 dummy-host.example.com
 dummy-host2.example.com
 httpd-vhosts.conf

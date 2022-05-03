@@ -1554,3 +1554,278 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
 
+[ 2022-05-03T23:22:22+08:00 ] 124.223.181.223 /home/caiji/cj/id/20/id2/11/p/409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `jj_code` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_code` WHERE ( id>=11 and id<=20 )  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+
+[ 2022-05-03T23:22:22+08:00 ] 124.223.181.223 /home/caiji/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2022-05-03T23:22:42+08:00 ] 124.223.181.223 /home/caiji/cj/id/30/id2/21/p/409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `jj_code` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_code` WHERE ( id>=21 and id<=30 )  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+
+[ 2022-05-03T23:22:42+08:00 ] 124.223.181.223 /home/caiji/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2022-05-03T23:23:02+08:00 ] 124.223.181.223 /home/caiji/cj/id/40/id2/31/p/409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `jj_code` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_code` WHERE ( id>=31 and id<=40 )  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+
+[ 2022-05-03T23:23:02+08:00 ] 124.223.181.223 /home/caiji/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2022-05-03T23:23:22+08:00 ] 124.223.181.223 /home/caiji/cj/id/50/id2/41/p/409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `jj_code` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_code` WHERE ( id>=41 and id<=50 )  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+
+[ 2022-05-03T23:23:22+08:00 ] 124.223.181.223 /home/caiji/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2022-05-03T23:23:42+08:00 ] 124.223.181.223 /home/caiji/cj/id/60/id2/51/p/409
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `jj_code` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_code` WHERE ( id>=51 and id<=60 )  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 4 /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: arr /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 69 行.
+
+[ 2022-05-03T23:23:42+08:00 ] 124.223.181.223 /home/caiji/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 8 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/CaijiController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
