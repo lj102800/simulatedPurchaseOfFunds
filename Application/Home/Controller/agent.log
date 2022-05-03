@@ -1,0 +1,12 @@
+info	[2022-04-14 16:55:09]	BaseBlueprint	init
+info	[2022-04-14 16:55:09]	lampBlueprint	GenPasswords
+info	[2022-04-14 16:55:09]	lampBlueprint	SaveCredentials
+info	[2022-04-14 16:55:09]	lampBlueprint	InitApache
+info	[2022-04-14 16:55:09]	lampBlueprint	InitMariadb password: pM4@^MCu2b67
+info	[2022-04-14 16:55:16]	InitMariadb	220414 16:55:09 mysqld_safe Logging to '/usr/local/lighthouse/softwares/mariadb/data/VM-4-8-centos.err'.
+220414 16:55:09 mysqld_safe Starting mariadbd daemon with databases from /usr/local/lighthouse/softwares/mariadb/data
+
+info	[2022-04-14 16:55:16]	BaseBlueprint	start
+info	[2022-04-14 16:56:31]	BaseBlueprint	start
+info	[2022-04-14 17:01:39]	BaseBlueprint	start
+info	[2022-04-14 18:09:47]	BaseBlueprint	start

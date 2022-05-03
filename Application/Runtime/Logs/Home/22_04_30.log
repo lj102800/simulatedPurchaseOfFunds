@@ -1,0 +1,240 @@
+[ 2022-04-30T22:36:38+08:00 ] 120.244.44.99 //home/index/zichandetail/code/519983/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 52 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined index: type /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 73 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: codel /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 146 行.
+NOTIC: [2] Division by zero /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 158 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 160 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 160 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 174 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 176 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 176 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 177 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 178 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 178 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 179 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000233s ]
+
+[ 2022-04-30T22:36:38+08:00 ] 120.244.44.99 //home/index/zichandetail/code/519983/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 17 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 52 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Undefined index: type /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 73 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined variable: codel /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 131 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 146 行.
+NOTIC: [2] Division by zero /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 158 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 160 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 160 行.
+NOTIC: [8] Undefined offset: 0 /home/www/htdocs/ThinkPHP/Library/Think/Db/Driver.class.php 第 114 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 174 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 176 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 176 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 177 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 178 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 178 行.
+NOTIC: [8] Trying to access array offset on value of type bool /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 179 行.
+NOTIC: [8] Trying to access array offset on value of type null /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000227s ]
+
+[ 2022-04-30T23:26:23+08:00 ] 109.237.103.9 /.env
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2022-04-30T23:36:45+08:00 ] 78.158.182.48 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: today /home/www/htdocs/Application/Home/Controller/IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2022-04-30T23:42:50+08:00 ] 120.244.44.99 /home/yjzs/yjzs/code/050002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `jj_jztable` [ RunTime:0.0111s ]
+SQL: SELECT max(time) as max,min(time) as min FROM `jj_jztable` WHERE ( code=050002 )  [ RunTime:0.0794s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2012-01-01' and '2012-12-31' ) ORDER BY time desc  [ RunTime:0.0834s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2013-01-01' and '2013-12-31' ) ORDER BY time desc  [ RunTime:0.0926s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2014-01-01' and '2014-12-31' ) ORDER BY time desc  [ RunTime:0.1127s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2015-01-01' and '2015-12-31' ) ORDER BY time desc  [ RunTime:0.1986s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2016-01-01' and '2016-12-31' ) ORDER BY time desc  [ RunTime:0.0953s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2017-01-01' and '2017-12-31' ) ORDER BY time desc  [ RunTime:0.0908s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2018-01-01' and '2018-12-31' ) ORDER BY time desc  [ RunTime:0.0837s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2019-01-01' and '2019-12-31' ) ORDER BY time desc  [ RunTime:0.0822s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2020-01-01' and '2020-12-31' ) ORDER BY time desc  [ RunTime:0.0835s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2021-01-01' and '2021-12-31' ) ORDER BY time desc  [ RunTime:0.0818s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2022-01-01' and '2022-12-31' ) ORDER BY time desc  [ RunTime:0.0248s ]
+NOTIC: [8] Undefined variable: limit /home/www/htdocs/Application/Home/Controller/YjzsController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2022-04-30T23:43:37+08:00 ] 120.244.44.99 /home/yjzs/yjzs/code/050002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `jj_jztable` [ RunTime:0.0051s ]
+SQL: SELECT max(time) as max,min(time) as min FROM `jj_jztable` WHERE ( code=050002 )  [ RunTime:0.0597s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2012-01-01' and '2012-12-31' ) ORDER BY time desc  [ RunTime:0.0276s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2013-01-01' and '2013-12-31' ) ORDER BY time desc  [ RunTime:0.0344s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2014-01-01' and '2014-12-31' ) ORDER BY time desc  [ RunTime:0.0418s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2015-01-01' and '2015-12-31' ) ORDER BY time desc  [ RunTime:0.0579s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2016-01-01' and '2016-12-31' ) ORDER BY time desc  [ RunTime:0.0756s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2017-01-01' and '2017-12-31' ) ORDER BY time desc  [ RunTime:0.0848s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2018-01-01' and '2018-12-31' ) ORDER BY time desc  [ RunTime:0.0779s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2019-01-01' and '2019-12-31' ) ORDER BY time desc  [ RunTime:0.0767s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2020-01-01' and '2020-12-31' ) ORDER BY time desc  [ RunTime:0.0777s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2021-01-01' and '2021-12-31' ) ORDER BY time desc  [ RunTime:0.0777s ]
+SQL: SELECT * FROM `jj_jztable` WHERE ( `code` ='050002' and `time` between '2022-01-01' and '2022-12-31' ) ORDER BY time desc  [ RunTime:0.0237s ]
+NOTIC: [8] Undefined variable: limit /home/www/htdocs/Application/Home/Controller/YjzsController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2022-04-30T23:43:42+08:00 ] 120.244.44.99 //home/index/zichandetail/code/519983/user_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+ERR: syntax error, unexpected '=', expecting ')'
+
+[ 2022-04-30T23:45:07+08:00 ] 8.219.50.83 http://passport.baidu.com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+ERR: syntax error, unexpected '=', expecting ')'
+

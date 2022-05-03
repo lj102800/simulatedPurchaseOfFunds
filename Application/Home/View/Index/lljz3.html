@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body> 
+  <include file="Comment/link"/>
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){ 
+      var code="210009";
+	  var htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false}); 
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="240022";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="003624";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="003625";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="510410";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="000755";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="210009";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="540006";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="001387";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="161725";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="163115";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="160630";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="502003";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  code="519983";
+	  htmlobj=$.ajax({url:"/index.php/Home/Report/imagesb/code/"+code,async:false});
+	  $("#myDiv").append(code+":"+htmlobj.responseText+"<br>");
+	  }); 
+    </script>  
+    <div id="myDiv"></div> 
+</body>
+</html>

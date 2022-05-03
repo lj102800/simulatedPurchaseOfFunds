@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Insert title here</title>
+<style>
+span{font-size:12px}
+.s{
+color:#666
+}
+.import{
+color:#f00
+}
+.iimport{
+color:green
+}
+.import2{
+color:#a00
+}
+</style>
+</head>
+<body>
+  <include file="Comment/head"/>
+  <include file="Comment/link"/> 
+  <div id="code" style="    float: left;    width: 70%">
+ 
+	<volist name="syList" id="list">
+	  
+	<span style="width:100%;padding-right:5px;float:left"><span style="font-size: 16px;color:#000">{$list.name}</span>：{$list.code}</span> 
+	<span style="width:100%;padding-right:5px;float:left"><span class="s">持有最大钱数：</span>{$list.max}&nbsp;&nbsp;持有总共天数:<span class="import2">{$list.zts}</span></span>       
+	<span style="width:100%;padding-right:5px;float:left"><span class="s">月利率:</span>{$list.yuell}%&nbsp;<span class="s">估算涨幅:</span>
+	    <if condition="$list.gszf gt  0 "><span class="import">
+        <else /> <span class="iimport">
+    </if>
+	 {$list.gszf}%</span></span>  
+	<div style="background:#ddd;height:1px;width:100%;float:left"></div>
+	 
+	</volist>
+	  
+</div>  
+<div style=" overflow:scroll; width:30%; ”>
+
+	<volist name="syList" id="list"> 
+	<span style="width:600px;padding-right:5px;float:left"><span class="s">持有成本:</span>{$list.money}&nbsp;<span class="s">持有金额:</span><span class="import">{$list.chiyje}</span>&nbsp;<span class="s">持有收益:</span>{$list.shouyi}</span>  
+	<span style="width:600px;padding-right:5px;float:left"><span class="s">卖出收益:</span>{$list.shouyi1}%&nbsp;<span class="s">累计成本:</span>{$list.money2}&nbsp;<span class="s">持有收益率:</span>{$list.syl}%<span class="s">周利率:</span>{$list.zhoull}%&nbsp;</span>  
+	<span style="width:600px;padding-right:5px;float:left"><span class="s">累计收益:</span>{$list.shouyi2}%&nbsp;<span class="s">累计收益:</span>{$list.ljsyl}%&nbsp;<span class="s">累计收益率:</span>{$list.ljsyl}%</span>  
+	   
+	<div style="background:#ddd;height:1px;width:200px;float:left"></div>
+	 
+	</volist>
+</div>
+持有总成本：{$money}<br>
+持有总金额：{$chiyje}<br>
+持有总收益：{$shouyi}<br>
+持有总收益率：{$syl}<br>
+卖出成本：{$money1}<br>
+卖出收益：{$shouyi1}<br>
+累计总成本：{$money2}<br>
+累计总收益：{$shouyi2}<br>
+</body>
+
+    <script type="text/javascript">
+    $("#code").show()
+    $("#code_show").click(function(){
+    	$("#code").toggle()
+            });
+    </script>       
+     
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body> 
+  <include file="Comment/link"/>
+<foreach name="list" item="vo" key="k" >
+	<label>{$vo.name}</label>
+	<input type="hidden" name='code' value="{$vo.code}">  
+		<img src="http://j4.dfcfw.com/charts/pic6/{$vo.code}.png?v="+ Math.random()>
+	<textarea rows="7" cols="71" name='guess'>{$vo.guess}</textarea><br>
+</foreach>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+    <!-- jQuery 2.1.4 -->
+    <script src="/Public/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+<div style="position: fixed;bottom: 60px;z-index: 10000;margin-left:20px;padding:5px">
+			<img id="nav" src="http://liangjun.site.cdn130.hnpet.net:8081/d/images/plus.png" width="20px">
+		</div> 
+<ul id="navc" class="nav-new-li" style="display:none;padding-top: 10px;background: #fa6;    padding-bottom: 10px;    float: left;    padding-left: 20px;    margin-top: 10px;    position: fixed;    bottom: 80px;    z-index: 10000;">		
+<li><a href="{:U('home/index/cj/id/100/id2/0')}">采集</a></li>
+<li><a href="{:U('home/Report/lljz') }">统计jj</a></li>
+<li><a href="{:U('home/Report/lljz2') }">jj评论</a></li>
+<li><a href="{:U('home/Index/add_transaction/code/210009') }">添加交易</a></li>
+<li><a href="{:U('home/index/lljz3') }">jj估值</a></li>
+<li><a href="{:U('home/Report/dange') }">查看shouy</a></li>
+<li><a href="{:U('home/Report/setday') }">设置时间</a></li>
+<li><a href="{:U('home/Report/shouyi') }">收益</a></li>
+<li><a href="{:U('home/Report/yjzs/code/210009') }">业绩走势</a></li>
+</ul>
+
+<script type="text/javascript"> 
+		jQuery(document).ready(function($){ 
+		$('#nav').click(function(){
+			if ($('#nav').attr('src')=='http://liangjun.site.cdn130.hnpet.net:8081/d/images/plus.png') {
+				$('#nav').attr('src','http://liangjun.site.cdn130.hnpet.net:8081/d/images/minus.png');$('#navc').toggle(); 
+			}else{
+				$('#nav').attr('src','http://liangjun.site.cdn130.hnpet.net:8081/d/images/plus.png');$('#navc').toggle(); 
+			}
+
+		}); 
+
+			}); 
+	</script>

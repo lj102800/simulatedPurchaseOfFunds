@@ -1,0 +1,24 @@
+[ 2022-04-30T23:42:50+08:00 ] 120.244.44.99 /Public/js/highcharts/modules/exporting.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+ERR: 无法加载模块:Public
+
+[ 2022-04-30T23:42:50+08:00 ] 120.244.44.99 /Public/js/highcharts-plugins/highcharts-zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+ERR: 无法加载模块:Public
+
+[ 2022-04-30T23:43:37+08:00 ] 120.244.44.99 /Public/js/highcharts/modules/exporting.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+ERR: 无法加载模块:Public
+
+[ 2022-04-30T23:43:37+08:00 ] 120.244.44.99 /Public/js/highcharts-plugins/highcharts-zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Public
+

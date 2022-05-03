@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title>Insert title here</title>
+<style>
+span{font-size:12px}
+.s{
+color:#666
+}
+.import{
+color:#f00
+}
+.iimport{
+color:green
+}
+.import2{
+color:#a00
+}
+</style>
+</head>
+<body>
+  <include file="Comment/head"/>
+  <include file="Comment/link"/> 
+  <div id="code" style="    float: left;    width: 70%">
+ 
+	  <table> 
+	<volist name="syList" id="list">
+	<tr   >
+	<td width=40><span class="s"></span>
+	    <if condition="$list.gszf gt  0 "><span class="import">
+        <else /> <span class="iimport">
+    </if>
+	 {$list.gszf}%</span></td> 
+	<td width=50  >{$list.code}</td>
+	<td width=160 onclick="ShowElement(this)" data-id="{$list.id}" name="name">{$list.name}</td> 
+	<td width=280 onclick="ShowElement(this)" data-id="{$list.id}" name="qk">{$list.qk}</td>  
+	</tr>
+	<tr style="border-bottom: #ddd solid 1px;">
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="show">{$list.show}</td>  
+	<td width=80 onclick="ShowElement(this)" data-id="{$list.id}" name="who">{$list.who}</td>  
+	<td width=280 onclick="ShowElement(this)" data-id="{$list.id}" name="desc">{$list.desc}</td> 
+	<td width=280 onclick="ShowElement(this)" data-id="{$list.id}" name="mbm">{$list.mbm}</td> 
+	 
+	</tr>
+	</volist>
+	</table>
+	 
+	<div style="background:#ddd;height:1px;width:100%;float:left"></div>
+	 
+	</volist>
+	  
+</div>   
+</body>
+     <script type="text/javascript">
+    function ShowElement(element) {
+        var oldhtml = element.innerHTML;
+        //创建新的input元素
+        var newobj = document.createElement('textarea');
+        //为新增元素添加类型
+        newobj.type = 'text';
+        //为新增元素添加value值
+        newobj.value = oldhtml; 
+        //为新增元素添加光标离开事件
+        newobj.onblur = function() {
+            //当触发时判断新增元素值是否为空，为空则不修改，并返回原有值 
+            element.innerHTML = this.value == oldhtml ? oldhtml : this.value;
+            //当触发时设置父节点的双击事件为ShowElement
+            element.setAttribute("onclick", "ShowElement(this);");
+            name=element.getAttribute("name");
+            id=element.getAttribute("data-id"); 
+            $.ajax({
+                type : "get",
+                url:"/index.php?m=Home&c=index&a=ajaxmsck&name="+name+"&id="+id+"&value="+this.value,//+tab,
+              //  data : $('#'+form).serialize(),// 你的formid
+                success: function(data){console.log(data);
+                   
+                }
+            });
+            
+        }
+        //设置该标签的子节点为空
+        element.innerHTML = '';
+        //添加该标签的子节点，input对象
+        element.appendChild(newobj);
+        //设置选择文本的内容或设置光标位置（两个参数：start,end；start为开始位置，end为结束位置；如果开始位置和结束位置相同则就是光标位置）
+        newobj.setSelectionRange(0, oldhtml.length);
+        //设置获得光标
+        newobj.focus();
+
+        //设置父节点的双击事件为空
+        newobj.parentNode.setAttribute("onclick", "");
+
+    }
+</script>
+     
+</html>

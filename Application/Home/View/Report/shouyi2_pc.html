@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Insert title here</title>
+</head>
+<body>
+  <include file="Comment/link"/>
+  <span id="code_show">显示</span>
+  <div id="code">
+	<table style="position: fixed;top: 00px;left: 10px;background: white;">
+	<tr> 
+	<th width=50>code</th>
+	<th width=150>名称</th>
+	<th width=150>持有成本</th>
+	<th width=100>持有金额</th>
+	<th width=100>持有收益</th>
+	<th width=100>持有总天数</th>
+	<th width=100>持有最大钱数</th>
+	
+	<th width=60>卖出收益</th> 
+	<th width=60>累计成本</th>
+	<th width=80>累计收益</th> 
+	<th width=80>累计收益率</th> 
+	<th width=80>持有收益率</th>
+	<th width=80>周利率</th> 
+	<th width=80>月利率</th> 
+	<th width=80>估算涨幅</th> 
+	</tr> 
+	</table>
+	<table>
+	<volist name="syList" id="list">
+	<tr>
+	<td width=50>{$list.code}</td>
+	<td width=150>{$list.name}</td>
+	<td width=150>{$list.money}</td>
+	<td width=100>{$list.chiyje}</td>
+	<td width=100>{$list.shouyi}</td>
+	<td width=100>{$list.zts}</td>
+	<td width=100>{$list.max}</td>
+	
+	<td width=60>{$list.shouyi1}</td>  
+	<td width=60>{$list.money2}</td> 
+	<td width=80>{$list.shouyi2}</td> 
+	<td width=80>{$list.ljsyl}%</td>  
+	<td width=80>{$list.syl}%</td> 
+	<td width=60>{$list.zhoull}%</td> 
+	<td width=80>{$list.yuell}%</td>  
+	<td width=80>{$list.gszf}%</td>  
+	 
+	</tr>
+	</volist>
+	</table>  
+</div>  
+持有总成本：{$money}<br>
+持有总金额：{$chiyje}<br>
+持有总收益：{$shouyi}<br>
+持有总收益率：{$syl}<br>
+卖出成本：{$money1}<br>
+卖出收益：{$shouyi1}<br>
+累计总成本：{$money2}<br>
+累计总收益：{$shouyi2}<br>
+</body>
+
+    <script type="text/javascript">
+    $("#code").show()
+    $("#code_show").click(function(){
+    	$("#code").toggle()
+            });
+    </script>       
+     
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<style>
+.s{
+color:#666
+}
+.import{
+color:#f00
+}
+.import2{
+color:#a00
+}
+</style>
+</head>
+<body>
+  <include file="Comment/head"/>
+  <include file="Comment/link"/>
+  <span id="code_show">显示</span>
+  <div id="code" style="padding-left:5px;">
+	 
+	<volist name="syList" id="list">
+	  
+	<span style="width:100%;padding-right:5px;float:left">{$list.name}：{$list.code}</span> 
+	<span style="width:100%;padding-right:5px;float:left">{$list.start_time}&nbsp;至&nbsp;{$list.end_time}&nbsp;&nbsp;总共天数:<span class="import2">{$list.zong_day}</span></span> 
+	<span style="width:100%;padding-right:5px;float:left"><span class="s">收入日利率:</span>{$list.rilv}%&nbsp;<span class="s">收入月利率:</span>{$list.yuelv}%&nbsp;<span class="s">收入年利率:</span>{$list.nianlv}%</span>  
+	<span style="width:100%;padding-right:5px;float:left">份数:<span class="import">{$list.fen}</span>&nbsp;成本:<span class="import">{$list.money}</span>&nbsp;收益:<span class="import">{$list.shouyi}</span>&nbsp;本基金月利率:<span class="import">{$list.time}</span></span>  
+	 <div style="background:#ddd;height:1px;width:100%;float:left">
+	 
+	</volist>
+	持有收益率 <br>
+	 
+	<volist name="syList2" id="list">
+	  
+	<span style="width:100%;padding-right:5px;float:left">{$list.name}：{$list.code}</span> 
+	<span style="width:100%;padding-right:5px;float:left">{$list.start_time}&nbsp;至&nbsp;{$list.end_time}&nbsp;&nbsp;总共天数:<span class="import2">{$list.zong_day}</span></span> 
+	<span style="width:100%;padding-right:5px;float:left"><span class="s">收入日利率:</span>{$list.rilv}%&nbsp;<span class="s">收入月利率:</span>{$list.yuelv}%&nbsp;<span class="s">收入年利率:</span>{$list.nianlv}%</span>  
+	<span style="width:100%;padding-right:5px;float:left">份数:<span class="import">{$list.fen}</span>&nbsp;成本:<span class="import">{$list.money}</span>&nbsp;收益:<span class="import">{$list.shouyi}</span>&nbsp;本基金月利率:<span class="import">{$list.time}</span></span>  
+	 <div style="background:#ddd;height:1px;width:100%;float:left">
+	 
+	</volist>
+	 
+</div> 
+持有成本：{$money}<br>
+持有金额：{$chiyje}<br>
+持有收益：{$shouyi}<br>
+持有收益率：{$syl}<br>
+卖出成本：{$money1}<br>
+卖出收益：{$shouyi1}<br>
+累计成本：{$money2}<br>
+累计收益：{$shouyi2}<br>
+</body>
+
+    <script type="text/javascript">
+    $("#code").show()
+    $("#code_show").click(function(){
+    	$("#code").toggle()
+            });
+    </script>        
+</html>

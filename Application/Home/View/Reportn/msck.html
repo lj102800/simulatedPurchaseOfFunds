@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title>Insert title here</title>
+<style><!--
+span{font-size:12px}
+.s{
+color:#666
+}
+.import{
+color:#f00
+}
+.iimport{
+color:green
+}
+.import2{
+color:#a00
+}
+tr:hover{background:#def;} 
+/*.class1{background:#d1e1f1;}
+.class2{background:#d1e1ff;}
+.class3{background:#dfe1ff;}
+.class4{background:#d1efff;}
+.class5{background:#ddefdf;}
+.class6{background:#dfafdf;}
+.classf1{background:#cfd1ef;}
+.classf2{background:#cae5ff;} 
+*/</style>
+</head>
+<body>
+  <include file="Comment/head"/>
+  <include file="Comment/link"/> 
+  <a href="/index.php?m=Home&c=index&a=ajaxjia">第二天买完计算</a><br>
+  <a href="/index.php?m=Home&c=index&a=ajaxfztoday">复制前一天的</a>
+  <div id="code" style="    float: left;    width: 70%">
+ 
+	  <table border="1"> 
+	<volist name="syList" id="list">
+	<tr 
+	 <if condition="$list.class eq  1 ">class="class1"
+       <elseif condition="$list.class eq  2"/>class="class2"
+       <elseif condition="$list.class eq  3"/>class="class3"
+       <elseif condition="$list.class eq  4"/>class="class4"
+       <elseif condition="$list.class eq  5"/>class="class5"
+       <elseif condition="$list.class eq  6"/>class="class6"
+       <elseif condition="$list.class eq  -1"/>class="classf1"
+       <elseif condition="$list.class eq  -2"/>class="classf2"
+        <else />  
+    </if>
+	
+	 <if condition="$list.show eq  291 ">style="background:#faa"  
+    </if> >
+	<td width=50  >{$list.code}</td>
+	<td width=160 onclick="ShowElement(this)" data-id="{$list.id}" name="name">{$list.name}</td>
+	<td width=40><span class="s"></span>
+	    <if condition="$list.rzzl gt  0 "><span class="import">
+        <else /> <span class="iimport">
+    </if>
+	 {$list.rzzl}%</span></td>  
+	<td width=40><span class="s"></span>
+	    <if condition="$list.gszf gt  0 "><span class="import">
+        <else /> <span class="iimport">
+    </if>
+	 {$list.gszf}%</span></td> 
+	<td width=280  >{$list.cl},
+	<notempty  name="list.nll13">13年利率{$list.nll13}%</notempty>
+	<notempty  name="list.nll11">11年利率{$list.nll11}%</notempty>
+	<notempty  name="list.nll9">9年利率{$list.nll9}%</notempty>
+	<notempty  name="list.nll7">7年利率{$list.nll7}%</notempty>
+	<notempty  name="list.nll5">5年利率{$list.nll5}%</notempty>
+	<notempty  name="list.nll3">3年利率{$list.nll3}%</notempty>
+	<notempty  name="list.nll1">1年利率{$list.nll1}%</notempty>
+	</td>
+	<td width=280 onclick="ShowElement(this)" data-id="{$list.id}" name="qk">{$list.qk}</td>  
+	<td width=280 onclick="ShowElement(this)" data-id="{$list.id}" name="desc">{$list.desc}</td> 
+	<td width=280 onclick="ShowElement(this)" data-id="{$list.id}" name="mbm">{$list.mbm}</td> 
+	<td width=80 onclick="ShowElement(this)" data-id="{$list.id}" name="who">{$list.who}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="mb">{$list.mb}</td> 
+	<!--<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="changduan">{$list.changduan}</td> 
+	--><td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="money">{$list.money}</td> 
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="today" id="today{$list.id}">{$list.today}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="fen" id="fen{$list.id}">{$list.fen}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="dq">{$list.dq}</td>  
+	<td width=40  data-id="{$list.id}" name="jy">{$list.jy}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="show">{$list.show}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="class">{$list.class}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="gl">{$list.gl}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.id}" name="bfb">{$list.bfb}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.ljsy}" name="bfb">{$list.ljsy}</td>  
+	<td width=40 onclick="ShowElement(this)" data-id="{$list.chysy}" name="bfb">{$list.chysy}</td>  
+	 
+	</tr>
+	</volist>
+	</table>
+	 
+	<div style="background:#ddd;height:1px;width:100%;float:left"></div>
+	 
+	</volist>
+	    
+		目前总：{$mairuzong}今天买入：{$todayzong}今天卖出：{$todayzong2}
+</div>   
+</body>
+     <script type="text/javascript">
+    function ShowElement(element) {
+        var oldhtml = element.innerHTML;
+        //创建新的input元素
+        var newobj = document.createElement('textarea');
+        //为新增元素添加类型
+        newobj.type = 'text';
+        //为新增元素添加value值
+        newobj.value = oldhtml; 
+        //为新增元素添加光标离开事件
+        newobj.onblur = function() {
+            //当触发时判断新增元素值是否为空，为空则不修改，并返回原有值 
+            element.innerHTML = this.value == oldhtml ? oldhtml : this.value;
+            //当触发时设置父节点的双击事件为ShowElement
+            element.setAttribute("onclick", "ShowElement(this);");
+            name=element.getAttribute("name");
+            id=element.getAttribute("data-id"); 
+            $.ajax({
+                type : "get",
+                url:"/index.php?m=Home&c=index&a=ajaxmsck&name="+name+"&id="+id+"&value="+this.value,//+tab,
+              //  data : $('#'+form).serialize(),// 你的formid
+                success: function(data){
+					if(name=="today")
+						$("#fen"+id).html(data); 
+					else if(name=="fen")
+						$("#today"+id).html(data);
+                }
+            });
+            
+        }
+        //设置该标签的子节点为空
+        element.innerHTML = '';
+        //添加该标签的子节点，input对象
+        element.appendChild(newobj);
+        //设置选择文本的内容或设置光标位置（两个参数：start,end；start为开始位置，end为结束位置；如果开始位置和结束位置相同则就是光标位置）
+        newobj.setSelectionRange(0, oldhtml.length);
+        //设置获得光标
+        newobj.focus();
+
+        //设置父节点的双击事件为空
+        newobj.parentNode.setAttribute("onclick", "");
+
+    }
+</script>
+     
+</html>

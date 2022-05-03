@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <include file="Comment/head"/>
+  <include file="Comment/link"/>
+  <span id="code_show">显示</span>
+  <div id="code">
+	<table style="position: fixed;top: 00px;left: 10px;background: white;">
+	<tr> 
+	<th width=50>利率</th>
+	<th width=50>收益</th>
+	<th width=80>持有份额</th>
+	<th width=80>持有金额</th>
+	
+	<th>累计收益</th>
+	<th>持有收益率</th>
+	<th>累计收益率</th>
+	<th>买入手续费</th>
+	<th>卖出手续费</th>
+	<th width=100>日期</th>
+	
+	<th>买入金额</th>
+	<th>买入总金额</th>
+	<th>买入份额</th>
+	<th>卖出金额</th>
+	<th>卖出份额</th>
+	</tr> 
+	</table>
+	<table>
+	<volist name="syList" id="list">
+	<tr>
+	<td width=50>{$list.rzzl}</td>
+	<td width=50>{$list.drsy}</td>
+	<td width=80>{$list.fen}</td>
+	<td width=80>{$list.sum}</td>
+	
+	<td width=80>{$list.gain}</td> 
+	<td width=80>{$list.gainclv}%</td> 
+	<td width=80>{$list.gainlv}%</td> 
+	<td width=80>{$list.sxf}</td> 
+	<td width=80>{$list.sxf2}</td>  
+	<td width=100>{$list.time}</td> 
+	
+	<td width=80>{$list.mairu}</td>
+	<td width=80>{$list.mairuz}</td>
+	<td width=80>{$list.maifen}</td>
+	<td width=80>{$list.maichu}</td>
+	<td width=80>{$list.maichufen}</td>
+	</tr>
+	</volist>
+	</table>
+</div>
+累计收益：{$gain}<br>
+现有金额：{$sum}<br>
+</body>
+
+    <script type="text/javascript">
+    $("#code").hide()
+    $("#code_show").click(function(){
+    	$("#code").toggle()
+            });
+    </script>        
+</html>
