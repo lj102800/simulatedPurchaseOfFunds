@@ -1,1 +1,11 @@
-application/Runtime/
+Application/Runtime/
+dummy-host.example.com
+dummy-host2.example.com
+httpd-vhosts.conf
+httpd.conf
+lj.sql
+Application/Home/httpd.conf
+Application/Home/httpd-vhosts.conf
+Application/Home/agent.log
+Application/Home/my - 副本.cnf
+Application/Home/my.cnf
